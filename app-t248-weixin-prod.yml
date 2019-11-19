@@ -1,11 +1,7 @@
-spring:
-  application:
-    name: app-t248-weixin
-  boot:
+ boot:
     admin:
       client:
         url: http://localhost:8199
-
 ###服务注册到eureka地址
 eureka:
   client:
