@@ -9,6 +9,11 @@ spring:
     admin:
       client:
         url: http://localhost:8199
+  datasource:
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/meite_member
 ###服务注册到eureka地址
 eureka:
   client:
